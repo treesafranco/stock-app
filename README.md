@@ -33,7 +33,7 @@ npm start
 
 ## Test Cases
 
-Test cases are available for almost all components. Test cases can be run using
+Test cases are implemented for almost all components. Test cases can be run using
 
 ```
 npm test
