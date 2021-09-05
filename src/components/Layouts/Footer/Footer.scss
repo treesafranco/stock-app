@@ -1,0 +1,13 @@
+$footer_fg: #f1e9e8;
+$footer_bg: #000;
+
+.footer {
+  display: flex;
+  width: calc(100% - 40px);
+  padding: 20px;
+  background: $footer_bg;
+  color: $footer_fg;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+$header_fg: #762015;
+$header_bg: #f1e9e8;
+
+.header {
+  background: $header_fg;
+  color: $header_bg;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: calc(100% - 40px);
+  text-transform: uppercase;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
