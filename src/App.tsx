@@ -22,7 +22,7 @@ const App = () => {
   const isDataLoading: boolean = useSelector(getLoadingStatus);
   const isError: boolean = useSelector(getErrorStatus);
 
-  const [selectedStock, setSelectedStock] = useState(JSON.parse(localStorage.getItem('stockOption')) || 0);
+  const [selectedStock, setSelectedStock] = useState(JSON.parse(localStorage.getItem('stockOption')) || stocksList[0]);
 
   useEffect(() => {
     dispatch(fetchStock(selectedStock));
